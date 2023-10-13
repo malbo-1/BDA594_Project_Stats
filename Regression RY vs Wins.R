@@ -11,6 +11,7 @@ plot(RY, Wins, pch = 16, cex = 1, col = "blue",
 # Summary Regression Statistics
 model <- lm(Wins ~ RY)
 summary(model) # Multiple R-squared = 0.0188,	Adjusted R-squared = -0.05129
+# p-value: 0.6126 (LARGER than 0.05)
 
 # Line of Best Fit
 abline(model)

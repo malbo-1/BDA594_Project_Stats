@@ -15,4 +15,4 @@ Wins        <- df$Wins        # Total Wins
 
 model <- lm(Wins~APYPG+APPG+ARYPG+AYPG+HGW+PY+RY+Time.Of.Pos+TY)
 summary(model) # Multiple R-Squared = 0.896; Adjusted R-squared = 0.74 
-
+# p-value: 0.02276 (SMALLER than 0.05)
