@@ -6,7 +6,7 @@ View(df)
 # Plot between "AYPG" (Average Yards Per Game) and "Wins" (Total Wins) columns
 AYPG <- df$AYPG
 Wins <- df$Wins
-plot(AYPG, Wins, pch = 16, cex = 1, col = "blue",
+plot(AYPG, Wins, pch = 16, cex = 1, col = "red",
      main = "Average Yards Per Game vs Total Wins",
      xlab = "Average Yards Per Game", ylab = "Total Wins")
 

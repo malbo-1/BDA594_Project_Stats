@@ -4,7 +4,7 @@ View(df)
 # Plot between "RY" (Total Rushing Yards) and "Wins" (Total Wins) columns
 RY <- df$RY
 Wins <- df$Wins
-plot(RY, Wins, pch = 16, cex = 1, col = "blue",
+plot(RY, Wins, pch = 16, cex = 1, col = "red",
      main = "Total Rushing Yards vs Total Wins",
      xlab = "Total Rushing Yards", ylab = "Total Wins")
 

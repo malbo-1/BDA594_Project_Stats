@@ -5,7 +5,7 @@ View(df)
 # Plot between "TO" (Turnovers Lost) and "Losses" (Total Losses) columns
 TO <- df$TO
 Losses <- df$Losses
-plot(TO, Losses, pch = 16, cex = 1, col = "blue",
+plot(TO, Losses, pch = 16, cex = 1, col = "red",
      main = "Turnovers Lost vs Total Losses",
      xlab = "Turnovers", ylab = "Total Losses")
 

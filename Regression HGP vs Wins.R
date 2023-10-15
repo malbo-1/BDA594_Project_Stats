@@ -6,7 +6,7 @@ View(df)
 HGP  <- df$HGP
 Wins <- df$Wins
 
-plot(HGP, Wins, pch = 16, cex = 1, col = "blue",
+plot(HGP, Wins, pch = 16, cex = 1, col = "red",
      main ="Home Games Played vs Total Wins",
      xlab ="Home Games Played", ylab="Total Wins")
 

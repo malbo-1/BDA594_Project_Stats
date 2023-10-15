@@ -6,7 +6,7 @@ View(df)
 # and "Wins" (Total Wins) columns
 Time.Of.Pos <- df$Time.of.Pos
 Wins <- df$Wins
-plot(Time.Of.Pos, Wins, pch = 16, cex = 1, col = "blue",
+plot(Time.Of.Pos, Wins, pch = 16, cex = 1, col = "red",
      main = "Total Time of Possession vs Total Wins",
      xlab = "Total Time of Possession", ylab = "Total Wins")
 
