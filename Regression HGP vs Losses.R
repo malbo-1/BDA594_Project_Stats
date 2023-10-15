@@ -6,14 +6,14 @@ View(df)
 HGP    <- df$HGP
 Losses <- df$Losses
 
-plot(HGP, Losses, pch = 16, cex = 1, col = "blue",
+plot(HGP, Losses, pch = 16, cex = 1, col = "red",
      main ="Home Games Played vs Total Losses",
      xlab ="Home Games Played", ylab="Total Losses")
 
 # Summary Regression Statistics
 model <- lm(Losses ~ HGP)
-summary(model)  # Multiple R-Squared = 0.03776; # Adjusted R-squared = -0.03097
-# p-value: 0.4708 (LARGER than 0.05)
+summary(model)  # Multiple R-Squared = ; # Adjusted R-squared = 
+# p-value:  ( than 0.05)
 # Line of Best Fit
 abline(model)
 

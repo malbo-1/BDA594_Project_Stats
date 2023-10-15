@@ -7,15 +7,15 @@ View(df)
 HGW  <- df$HGW
 Wins <- df$Wins
 
-plot(HGW, Wins, pch = 16, cex = 1, col = "blue",
+plot(HGW, Wins, pch = 16, cex = 1, col = "red",
      main ="Home Games Won vs Total Wins",
      xlab ="Home Games Won", ylab="Total Wins")
 
 
 # Summary Regression Statistics
 model <- lm(Wins ~ HGW)
-summary(model)  # Multiple R-Squared = 0.7707; # Adjusted R-squared = 0.7543 
-# p-value: 7.811*10 ^ -6 (SMALLER than 0.05)
+summary(model)  # Multiple R-Squared = ; # Adjusted R-squared =  
+# p-value:  (SMALLER than )
 
 # Line of Best Fit
 abline(model)
