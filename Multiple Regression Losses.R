@@ -8,5 +8,5 @@ YGU    <- df$YGU    # Total Yards Given Up
 Losses <- df$Losses # Total Losses
 
 model <- lm(Losses~HGL+TO+YGU)
-summary(model)# Multiple R-Squared = 0.8035; Adjusted R-squared =  0.7543
-# p-value: 0.0001541 (SMALLER than 0.05)
+summary(model)# Multiple R-Squared = ; Adjusted R-squared =  
+# p-value:  ( than 0.05)
