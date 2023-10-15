@@ -12,8 +12,8 @@ plot(Time.Of.Pos, Wins, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Wins ~ Time.Of.Pos)
-summary(model) # Multiple R-squared =  ,	Adjusted R-squared =  
-#p-value:  (than 0.05)
+summary(model) # Multiple R-squared = 0.05576 ,	Adjusted R-squared =  -0.01168  
+#p-value:  0.3786 (LARGER than 0.05)
 
 # Line of Best Fit
 abline(model)

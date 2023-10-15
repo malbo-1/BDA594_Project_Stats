@@ -13,8 +13,8 @@ plot(APPG, Wins, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Wins ~ APPG)
-summary(model)  # Multiple R-Squared = ; # Adjusted R-squared =  
-# p-value:  ( than 0.05)
+summary(model)  # Multiple R-Squared = 0.6744; # Adjusted R-squared = 0.6511 
+# p-value: 9.621e-05 (SMALLER than 0.05)
 
 # Line of Best Fit
 abline(model)

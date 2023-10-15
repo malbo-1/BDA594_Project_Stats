@@ -14,8 +14,8 @@ plot(HGW, Wins, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Wins ~ HGW)
-summary(model)  # Multiple R-Squared = ; # Adjusted R-squared =  
-# p-value:  (SMALLER than )
+summary(model)  # Multiple R-Squared =  0.7615; # Adjusted R-squared =  0.7445 
+# p-value:  1.034e-05 (SMALLER than 0.05)
 
 # Line of Best Fit
 abline(model)

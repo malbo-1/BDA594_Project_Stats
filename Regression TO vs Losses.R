@@ -11,8 +11,8 @@ plot(TO, Losses, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Losses ~ TO)
-summary(model) # Multiple R-squared =  ,	Adjusted R-squared =  
-# p-value:  ( than 0.05)
+summary(model) # Multiple R-squared =  0.6698 ,	Adjusted R-squared = 0.6463 
+# p-value: 0.0001063 (SMALLER than 0.05)
 
 # Line of Best Fit
 abline(model)

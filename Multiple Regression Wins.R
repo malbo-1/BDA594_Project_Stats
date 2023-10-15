@@ -14,5 +14,5 @@ TY          <- df$TY          # Total Yards
 Wins        <- df$Wins        # Total Wins
 
 model <- lm(Wins~APYPG+APPG+ARYPG+AYPG+HGW+PY+RY+Time.Of.Pos+TY)
-summary(model) # Multiple R-Squared = ; Adjusted R-squared =  
-# p-value:  ( than 0.05)
+summary(model) # Multiple R-Squared = 0.9189; Adjusted R-squared = 0.7972 
+# p-value: 0.01151 ( SMALLER than 0.05)

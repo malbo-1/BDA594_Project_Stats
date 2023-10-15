@@ -12,8 +12,8 @@ plot(HGL, Losses, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Losses ~ HGL)
-summary(model) # Multiple R-squared = ,	Adjusted R-squared =  
-#p-value:  ( than 0.05)
+summary(model) # Multiple R-squared =  0.7658 ,	Adjusted R-squared =   0.7491 
+#p-value: 9.081e-06 (SMALLER than 0.05)
 
 # Line of Best Fit
 abline(model)

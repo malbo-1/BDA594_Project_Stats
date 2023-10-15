@@ -12,8 +12,8 @@ plot(ARYPG, Wins, pch = 16, cex = 1, col = "red",
 
 # Summary Regression Statistics
 model <- lm(Wins ~ ARYPG)
-summary(model) # Multiple R-squared = ,	Adjusted R-squared = 
-#p-value:  ( than 0.05)
+summary(model) # Multiple R-squared =  0.01694,	Adjusted R-squared = -0.05327 
+#p-value: 0.6309 (LARGER than 0.05)
 
 # Line of Best Fit
 abline(model)
